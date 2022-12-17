@@ -1,0 +1,158 @@
+body{
+    width: 940px;
+    margin: 0 auto;
+    background: linear-gradient(90deg,#07e0e0,#092fdc);
+    font-style: italic;
+}
+
+.menu{
+    background-color: rgb(19, 185, 160);
+    position: fixed;
+    width: 940px;
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.menu li{
+    border: 1px solid black;
+    padding: 12px;
+    margin: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+   
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(7, 23, 23);
+}
+
+.menu li:hover{
+    background-color: rgb(25, 234, 227);
+    border: 1px solid white;
+    
+}
+
+.inicio{
+    background-color: rgb(22, 221, 204);
+    display: flex;
+    padding-top: 50px;
+}
+
+.inicio h1{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.inicio h3{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.inicio p{
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.inicio p img{
+    width: 20px;
+}
+
+.redes-sociais{
+    width: 40px;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
+.foto-perfil{
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 220px;
+    border: 6px solid black;
+    width: 320px;
+    margin-bottom: 30px;
+    height: 340px;
+}
+
+.dados-pessoais{
+    margin-left: 40px;
+    margin-top: 100px;
+    color: black;
+}
+
+.sobre-mim-conteudo{
+    display: flex;
+}
+
+.sobre-mim{
+    background-color: #d5ded8;
+}
+
+.sobre-mim h1{
+    text-align: center;
+    padding: 12px;
+}
+
+.sobre-mim p{
+    padding: 60px;
+    font-style: unset;
+    width: 300px;
+    color: #040505;
+    border-radius: 20px;
+    background-color: #07e0e0;
+    margin-bottom: auto;
+    font-size: 18px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#educação p, #experiências p, #habilidades p {
+    height: 103px;
+    text-align: center;
+    margin-left: 300px;
+    box-sizing: border-box;
+    background-color: #07e0e0(73,1, 112); 
+    box-shadow: 1px 1px 16px rgb(82 4 56 / 50%);
+    color: rgb(10,1, 1);
+    display: inline-block;
+    vertical-align: block;
+    padding: 17px;
+    font-size: 18px;
+}
+
+.trabalho{
+    width: 360px;
+    padding: 25px;
+    padding-left: 15px;
+    border-radius: 50px;
+}
+.final{
+    text-align: center;
+    background-color: rgb(15, 154, 223);
+    padding: 25px;
+}
+
+/*table*/
+@media screen and (max-width:768px) {
+    section,aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/*celular*/
+@media screen and (max-width:600px) {
+    menu li{
+        float: none;
+        text-align: center;
+        width: 100;
+    }
+}
